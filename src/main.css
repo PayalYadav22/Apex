@@ -128,7 +128,7 @@
 
   .section {
     @apply py-8
-    
+
     /* responsive for md screen  */
     md:py-16;
   }
@@ -161,7 +161,7 @@
     font-semibold
     leading-snug
     py-3
-    
+
     /* responsive for md screen */
     md:text-[40px];
   }
