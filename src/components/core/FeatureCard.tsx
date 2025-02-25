@@ -8,7 +8,7 @@ import * as Variants from '@/lib/motion';
 
 type FeatureCardProps = {
   classes?: string;
-  children: JSX.Element;
+  children: React.ReactNode;
 };
 
 const FeatureCard = ({ classes, children }: FeatureCardProps) => {

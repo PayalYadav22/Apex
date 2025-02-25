@@ -4,14 +4,13 @@ import {
   PopoverTrigger,
   PopoverContent,
 } from '@/components/ui/popover';
-import { HeartOff, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import Logo from '@/components/layout/assets/Logo';
 import SideBar from '@/components/core/SlideBar';
 import { navMenu } from '@/constants';
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,

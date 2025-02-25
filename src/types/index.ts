@@ -5,7 +5,7 @@
 
 type SubmenuItem = {
   href: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
   label: string;
   desc: string;
 };

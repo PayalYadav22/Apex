@@ -4,7 +4,6 @@ import * as Variants from '@/lib/motion';
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
