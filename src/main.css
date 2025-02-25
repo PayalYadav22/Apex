@@ -170,6 +170,9 @@
     /* responsive for md screen */
     md:text-xl;
   }
+  .img-cover {
+    @apply w-full h-full object-cover;
+  }
 }
 
 @theme {

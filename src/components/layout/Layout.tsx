@@ -6,6 +6,8 @@ import Feature from '@/components/Feature';
 import Process from '@/components/Process';
 import Overview from '@/components/Overview';
 import Review from '@/components/Review';
+import Blog from '@/components/Blog';
+import Cta from '@/components/Cta';
 /**
  * @copyright 2025 Payal Yadav
  * @license Apache-2.0
@@ -22,6 +24,8 @@ const Layout = () => {
         <Process />
         <Overview />
         <Review />
+        <Blog />
+        <Cta />
       </main>
       <Footer />
     </>
