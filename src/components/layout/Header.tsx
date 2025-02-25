@@ -26,8 +26,8 @@ import {
 
 const Header = () => {
   return (
-    <header className='h-16 grid grid-cols-1 items-center md:h-20 lg:h-24'>
-      <div className='container flex justify-between'>
+    <header className='h-16 grid grid-cols-1 items-center md:h-20 lg:h-24 lg:grid lg:grid-cols-[1fr,3fr,1fr]'>
+      <div className='container flex justify-between '>
         <Logo variant='icon' />
         <NavigationMenu className='max-lg:hidden mx-auto'>
           <NavigationMenuList>

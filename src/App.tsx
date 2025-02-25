@@ -1,4 +1,5 @@
 import Layout from '@/components/layout/Layout';
+import { ReactLenis } from 'lenis/react';
 
 /**
  * @copyright 2025 Payal Yadav
@@ -7,9 +8,11 @@ import Layout from '@/components/layout/Layout';
 
 const App = () => {
   return (
-    <div>
-      <Layout />
-    </div>
+    <ReactLenis root>
+      <div className='relative isolate overflow-hidden'>
+        <Layout />
+      </div>
+    </ReactLenis>
   );
 };
 
